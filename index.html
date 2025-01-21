@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    
+</body>
+</html>
+<head>
+    <title>Student Registration</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()" class="info">
+                    <div>
+                        <label for="StudentCode">Student ID</label>
+                        <input type="number" name="StudentCode" id="StudentCode" placeholder="Enter You Student ID" required>
+                    </div>
+                    <div>
+                        <label for="Fullname">Full Name</label>
+                        <input type="text" name="Fullname" id="Fullname" placeholder="Enter You Full Name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Enter Your Email" required >
+                    </div>
+                    <div>
+                        <label for="Contact">Contact Number</label>
+                        <input type="number" name="Contact" id="Contact" placeholder="Enter Your Contact" required> 
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit"  id="submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+
+                <td>
+                    <table class="list" id="StudentData">
+                        <thead>
+                            <tr>
+                                <th>Student ID</th>
+                                <th>Full Name</th>
+                                <th>Email</th>
+                                <th>Conatact Number</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
